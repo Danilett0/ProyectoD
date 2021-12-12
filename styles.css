@@ -48,7 +48,7 @@ form {
     background: rgba(2, 42, 65, 0.911);
 }
 
-form > div {
+form>div {
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -66,11 +66,10 @@ form>div input {
 
 form div input:focus {
     border: 2px solid rgba(248, 172, 7, 0.986);
-    ;
     outline: none;
 }
 
-form>div label {
+form div label {
     font-family: poppins;
     font-weight: 500;
     color: rgb(255, 255, 255);
