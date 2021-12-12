@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://daniletto.com/wp-content/uploads/2021/05/home-office.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.covertor {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(3, 22, 32, 0.801);
+}
+
+main {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    right: 0;
+    background: rgb(255, 255, 255);
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-image: url("https://cdn.pixabay.com/photo/2020/01/26/11/46/paper-flower-background-4794429_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 7px;
+    box-shadow: -1px 2px 5px 2px rgba(8, 59, 82, 0.425);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background: rgba(2, 42, 65, 0.911);
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+form>div input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+
+form div input:focus {
+    border: 2px solid rgba(248, 172, 7, 0.986);
+    ;
+    outline: none;
+}
+
+form>div label {
+    font-family: poppins;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    user-select: none;
+}
+
+form div button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(7, 131, 202);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+form div button:hover {
+    background-color: rgb(7, 98, 151);
+}
